@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles/signup.css') }}">
+        <title> A book for you </title>
+
+    </head>
+    <body>
+        <div>
+            <h2> Cree a su cuenta </h2>
+            <form id="signup-form">
+                <label>
+                    <input type="text" id="firstName" placeholder="Nombres" class="input" required>
+                    <input type="text" id="lastName" placeholder="Apellidos" class="input" required>
+                    <input type="email" id="email" placeholder="Correo" class="input" required>
+                    <input type="text" id="username" placeholder="Nombre de usuario" class="input" required>
+                    <input type="password" id="password" placeholder="Nueva contraseña" class="input" required>
+
+                    <input type="submit" class="submit-button" value="Registrarse">
+                </label>
+            </form>
+        </div>
+        <script type="text/javascript" src="{{url_for('static', filename='scripts/signup.js')}}"></script>
+    </body>
+</html>

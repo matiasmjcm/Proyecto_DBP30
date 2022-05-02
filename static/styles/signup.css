@@ -1,0 +1,36 @@
+.input {
+    font-size: 1em;
+    display: block;
+    padding: 5px;
+    margin: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.submit-button {
+    font-size: 1em;
+    display: block;
+    padding: 5px;
+    margin: 10px;
+}
+
+#signup-box {
+    margin: 50px 5px 50px 20px;
+    /*margin:0 auto;*/
+    width:230px;
+    padding:20px;
+    background:#f9f9f9;
+    border:2px solid #333;
+}
+
+#login-box {
+    margin: 50px 5px 50px 20px;
+    /*margin:0 auto;*/
+    width:230px;
+    padding:20px;
+    background:#f9f9f9;
+    border:2px solid #333;
+}
+
